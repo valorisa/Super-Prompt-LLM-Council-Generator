@@ -5,10 +5,14 @@ on:
     branches: [ main, dev ]
     paths:
       - '**.md'
+      - '.markdownlint.json'
+      - '.github/workflows/markdownlint.yml'
   pull_request:
     branches: [ main, dev ]
     paths:
       - '**.md'
+      - '.markdownlint.json'
+      - '.github/workflows/markdownlint.yml'
 
 jobs:
   markdownlint:
