@@ -7,8 +7,9 @@
 [![GitHub Actions](https://img.shields.io/badge/CI-Markdown_Lint-success)](.github/workflows/markdownlint.yml)
 [![Karpathy Council](https://img.shields.io/badge/Methodology-Karpathy_LLM_Council-blueviolet)](https://x.com/karpathy/status/1878531712785961151)
 
-> **Production-ready meta-prompt generator** for creating optimized AI prompts validated through 5 Circles + 18 Hacks
-> + A-B-C-D delivery format + optional multi-perspective Council deliberation. Works with any LLM (ChatGPT, Claude, Gemini, Qwen, DeepSeek, etc.).
+> **Production-ready meta-prompt generator** for creating optimized AI prompts validated through **5 Circles + 18 Hacks**  
+> **+ A-B-C-D delivery format** + optional multi-perspective Council deliberation.  
+> Works with any LLM (ChatGPT, Claude, Gemini, Qwen, DeepSeek, etc.).
 
 **🌍 Language / Langue :** [English](README.md) | [Français](FR_README.md)
 
