@@ -226,17 +226,28 @@ prompt-gen
 
 1. **Copier le méta-prompt** : Ouvrir `promptor-council-v3.1.md` et copier tout son contenu
 2. **Coller dans votre LLM** : ChatGPT, Claude, Gemini, Qwen, DeepSeek, Perplexity, etc.
-3. **Décrire votre besoin** : Dire au LLM quel type de prompt vous souhaitez créer
+3. **Répondre aux questions initiales** : Le LLM vous posera 2 questions et **attendra vos réponses** avant de continuer :
+   - **Question 1 :** Quel prompt souhaites-tu créer ?
+   - **Question 2 :** Sur quel outil IA vas-tu l'utiliser ?
+4. **Traitement automatisé** : Une fois vos réponses fournies, le LLM exécute le pipeline complet (5 Cercles + 18 Hacks + livraison A-B-C-D)
 
 **Exemple d'interaction :**
 
 ```text
 UTILISATEUR : [Coller le contenu de promptor-council-v3.1.md ici]
 
-Maintenant, crée un prompt pour analyser le taux de désabonnement des clients dans un produit SaaS.
+LLM : Quel prompt souhaites-tu créer ?
+      Sur quel outil IA vas-tu l'utiliser ?
 
-LLM : [Exécute la validation des 5 Cercles, applique les 18 Hacks, génère un prompt optimisé]
+UTILISATEUR : Je veux créer un prompt pour analyser le taux de désabonnement des clients 
+              dans un produit SaaS. Je l'utiliserai sur ChatGPT.
+
+LLM : [Exécute la validation des 5 Cercles, applique les 18 Hacks, génère un prompt 
+       optimisé avec format de livraison A-B-C-D]
 ```
+
+> **💡 Important :** Le workflow conversationnel est conçu pour recueillir le contexte avant la génération. 
+> Le LLM ne continuera pas tant que vous n'aurez pas fourni de réponses aux deux questions initiales.
 
 ### Options avancées
 
