@@ -513,6 +513,52 @@ Optimization strategies applied throughout the pipeline:
 | #17 Off-peak scheduling | Speed | Better cost/availability |
 | #18 Persistent source of truth | Tokens | Context shortcut |
 
+### Phase 3 — Delivery (A-B-C-D)
+
+The final delivery format ensures the generated prompt is production-ready and actionable:
+
+**A — Calibration.** Maximum 3 bullets summarizing:
+
+- Processing logic
+- Detected DOMAIN
+- Applied FOCUS
+
+**B — Optimized Prompt.** Copy-paste-ready block containing:
+
+- **Header:** "Copy this block and paste it into your AI tool. It's ready!"
+- **Architectural note (if production-critical):** Clarify whether the prompt is a component of a larger system or standalone. If component, specify expected upstream/downstream dependencies.
+- Role + context adapted to DOMAIN
+- Instructions merging 5 Circles + prioritized hacks
+- `{{VARIABLE}}` placeholders for multi-domain reusability
+
+**C — Self-Critique.** Score 0-5. If < 5: propose an improvement. Explain what would raise the score.
+
+**Council Proposal:** If self-critique score is < 4/5 OR domain is critical (security, compliance, production), propose:
+
+> 💡 **Want an external audit by the LLM Council?**
+>
+> The Council will submit your prompt to 5 independent advisors with blind peer review to detect blind spots and weaknesses not visible in self-critique.
+>
+> - **Estimated cost:** ~11x higher (5 advisors + 5 reviewers + 1 chairman)
+> - **Time:** +2-3 minutes
+> - **Recommended if:** prompt for critical production, high-risk domain, or first exploration of a complex domain
+>
+> Add `[COUNCIL]` to your next response to activate.
+
+**D — Interrogation.** 2-5 questions maximum to iterate. Simple language + example adapted to DOMAIN.
+
+**Mandatory META questions (systematic for production-critical prompts):**
+
+1. **System architecture:** "Will this prompt be used as a component of a larger system (with upstream/downstream pipeline, orchestration, monitoring) or autonomously?"
+   - If component → Clarify required upstream/downstream interfaces
+   - If autonomous → Verify all dependencies are internalized
+
+2. **Testability:** "How will this prompt be tested/validated before production deployment?"
+   - Suggest: synthetic datasets, validation metrics, Go/No-Go thresholds
+   - If no protocol defined → Recommend minimal adversarial tests
+
+**Domain-specific questions:** 1-3 additional questions adapted to DOMAIN to iterate on prompt quality.
+
 ### The LLM Council
 
 Based on [Andrej Karpathy's LLM Council methodology](https://x.com/karpathy/status/1878531712785961151):

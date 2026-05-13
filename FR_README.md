@@ -513,6 +513,52 @@ Stratégies d'optimisation appliquées tout au long du pipeline :
 | #17 Planification hors-pointe | Vitesse | Meilleur coût/disponibilité |
 | #18 Source de vérité persistante | Tokens | Raccourci de contexte |
 
+### Phase 3 — Livraison (A-B-C-D)
+
+Le format de livraison final garantit que le prompt généré est prêt pour la production et actionnable :
+
+**A — Calibrage.** Maximum 3 puces résumant :
+
+- Logique de traitement
+- DOMAIN détecté
+- FOCUS appliqué
+
+**B — Prompt Optimisé.** Bloc prêt à copier-coller contenant :
+
+- **En-tête :** "Copie ce bloc et colle-le dans ton outil IA. C'est prêt !"
+- **Note architecturale (si production-critical) :** Clarifier si le prompt est un composant d'un système plus large ou autonome. Si composant, spécifier les dépendances amont/aval attendues.
+- Rôle + contexte adaptés au DOMAIN
+- Instructions fusionnant 5 Cercles + hacks priorisés
+- Placeholders `{{VARIABLE}}` pour réutilisation multi-domaine
+
+**C — Auto-Critique.** Note 0-5. Si < 5 : proposer une amélioration. Expliquer ce qui ferait monter la note.
+
+**Proposition Council :** Si la note auto-critique est < 4/5 OU si le domaine est critique (security, compliance, production), proposer :
+
+> 💡 **Veux-tu un audit externe par le LLM Council ?**
+>
+> Le Council va soumettre ton prompt à 5 advisors indépendants avec peer review aveugle pour détecter angles morts et faiblesses non visibles en auto-critique.
+>
+> - **Coût estimé :** ~11x plus élevé (5 advisors + 5 reviewers + 1 chairman)
+> - **Temps :** +2-3 minutes
+> - **Recommandé si :** prompt pour production critique, domaine à haut risque, ou première exploration d'un domaine complexe
+>
+> Ajoute `[COUNCIL]` à ta prochaine réponse pour activer.
+
+**D — Interrogatoire.** 2-5 questions max pour itérer. Langage simple + exemple adapté au DOMAIN.
+
+**Questions META obligatoires (systématiques pour prompts production-critical) :**
+
+1. **Architecture système :** "Ce prompt sera-t-il utilisé comme composant d'un système plus large (avec pipeline amont/aval, orchestration, monitoring) ou de manière autonome ?"
+   - Si composant → Clarifier interfaces amont/aval requises
+   - Si autonome → Vérifier que toutes dépendances sont internalisées
+
+2. **Testabilité :** "Comment ce prompt sera-t-il testé/validé avant déploiement en production ?"
+   - Proposer : jeux de données synthétiques, métriques de validation, seuils Go/No-Go
+   - Si aucun protocole défini → Recommander tests adversariaux minimaux
+
+**Questions domaine-spécifiques :** 1-3 questions additionnelles adaptées au DOMAIN pour itérer sur la qualité du prompt.
+
 ### Le Conseil LLM
 
 Basé sur la [méthodologie Conseil LLM d'Andrej Karpathy](https://x.com/karpathy/status/1878531712785961151) :
