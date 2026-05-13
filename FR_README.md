@@ -8,7 +8,7 @@
 [![Conseil Karpathy](https://img.shields.io/badge/M%C3%A9thodologie-Conseil_LLM_Karpathy-blueviolet)](https://x.com/karpathy/status/1878531712785961151)
 
 > **Générateur de méta-prompts prêt pour la production** permettant de créer des prompts IA optimisés validés par  
-> **5 Cercles + 18 Hacks + format de livraison A-B-C-D** + délibération multi-perspective optionnelle via Council.  
+> **5 Cercles + 18 Hacks + format de livraison A-B-C-D** + délibération multi-perspective optionnelle via **Council**.  
 > Fonctionne avec tous les LLM (ChatGPT, Claude, Gemini, Qwen, DeepSeek, etc.).
 
 ---
