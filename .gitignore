@@ -1,0 +1,44 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+temp/
+.temp/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node modules (if using JS tools)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Output artifacts
+council-report-*.html
+council-transcript-*.md
