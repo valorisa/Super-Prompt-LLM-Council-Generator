@@ -525,29 +525,29 @@ Déclenchement [COUNCIL] ou proposition auto (score <4/5 + domaine critique)
 ┌─────────────────────────────────────────────┐
 │  5 Conseillers (parallèle, 30-60s)         │
 ├─────────────────────────────────────────────┤
-│  • Le Contradicteur : Trouver les failles  │
-│  • Principes Premiers : Bonne question ?   │
-│  • L'Expansionniste : Opportunités manquées│
-│  • L'Outsider : Malédiction de la connaissance │
-│  • L'Exécuteur : Utilisabilité le lundi matin │
+│  • Le Contradicteur : Trouver les failles   │
+│  • Principes Premiers : Bonne question ?    │
+│  • L'Expansionniste : Opportunités manquées │
+│  • L'Outsider : Malédiction connaissance    │
+│  • L'Exécuteur : Utilisabilité lundi matin  │
 └──────────────────┬──────────────────────────┘
                    ↓
 ┌─────────────────────────────────────────────┐
-│  Revue par les pairs (anonymisée, 30-60s) │
+│  Revue par les pairs (anonymisée, 30-60s)  │
 ├─────────────────────────────────────────────┤
-│  • Quelle réponse est la plus forte ?     │
-│  • Laquelle a le plus gros angle mort ?   │
-│  • Qu'est-ce que TOUTES les réponses ont manqué ? │
+│  • Quelle réponse est la plus forte ?       │
+│  • Laquelle a le plus gros angle mort ?     │
+│  • Qu'est-ce que TOUTES ont manqué ?        │
 └──────────────────┬──────────────────────────┘
                    ↓
 ┌─────────────────────────────────────────────┐
-│  Synthèse du Président (20-30s)           │
+│  Synthèse du Président (20-30s)             │
 ├─────────────────────────────────────────────┤
-│  • Où le Council converge (haute confiance)│
-│  • Où le Council diverge (deux côtés)     │
-│  • Angles morts détectés (via peer review)│
-│  • Recommandation finale (verdict clair)  │
-│  • Action immédiate (UNE étape concrète)  │
+│  • Où le Council converge (haute confiance) │
+│  • Où le Council diverge (deux côtés)       │
+│  • Angles morts détectés (via peer review)  │
+│  • Recommandation finale (verdict clair)    │
+│  • Action immédiate (UNE étape concrète)    │
 └──────────────────┬──────────────────────────┘
                    ↓
          Artefacts générés

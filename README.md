@@ -525,29 +525,29 @@ Standard Pipeline (C1→C5 → 18 Hacks → A-B-C-D)
 ┌─────────────────────────────────────────────┐
 │  5 Advisors (parallel, 30-60s)             │
 ├─────────────────────────────────────────────┤
-│  • The Contrarian: Find flaws              │
-│  • First Principles: Right question?       │
-│  • The Expansionist: Missed opportunities  │
-│  • The Outsider: Curse of knowledge        │
-│  • The Executor: Monday-morning usability  │
+│  • The Contrarian: Find flaws               │
+│  • First Principles: Right question?        │
+│  • The Expansionist: Missed opportunities   │
+│  • The Outsider: Curse of knowledge         │
+│  • The Executor: Monday-morning usability   │
 └──────────────────┬──────────────────────────┘
                    ↓
 ┌─────────────────────────────────────────────┐
-│  Peer Review (anonymized, 30-60s)         │
+│  Peer Review (anonymized, 30-60s)          │
 ├─────────────────────────────────────────────┤
-│  • Which response is strongest?            │
-│  • Which has the biggest blind spot?       │
-│  • What did ALL responses miss?            │
+│  • Which response is strongest?             │
+│  • Which has the biggest blind spot?        │
+│  • What did ALL responses miss?             │
 └──────────────────┬──────────────────────────┘
                    ↓
 ┌─────────────────────────────────────────────┐
-│  Chairman Synthesis (20-30s)               │
+│  Chairman Synthesis (20-30s)                │
 ├─────────────────────────────────────────────┤
 │  • Where Council converges (high confidence)│
-│  • Where Council diverges (both sides)     │
-│  • Blind spots detected (via peer review)  │
-│  • Final recommendation (clear verdict)    │
-│  • Action immédiate (ONE concrete step)    │
+│  • Where Council diverges (both sides)      │
+│  • Blind spots detected (via peer review)   │
+│  • Final recommendation (clear verdict)     │
+│  • Action immédiate (ONE concrete step)     │
 └──────────────────┬──────────────────────────┘
                    ↓
          Artifacts Generated
