@@ -576,7 +576,7 @@ The final delivery format ensures the generated prompt is production-ready and a
 
 ### The LLM Council
 
-Based on [Andrej Karpathy's LLM Council methodology](https://x.com/karpathy/status/1878531712785961151):
+Based on [Andrej Karpathy's LLM Council methodology](https://x.com/karpathy?lang=fr):
 
 ```text
 Standard Pipeline (C1→C5 → 18 Hacks → A-B-C-D)
