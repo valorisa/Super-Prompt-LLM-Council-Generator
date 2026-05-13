@@ -523,7 +523,7 @@ Pipeline Standard (C1→C5 → 18 Hacks → A-B-C-D)
 Déclenchement [COUNCIL] ou proposition auto (score <4/5 + domaine critique)
                   ↓
 ┌─────────────────────────────────────────────┐
-│  5 Conseillers (parallèle, 30-60s)         │
+│  5 Conseillers (parallèle, 30-60s)          │
 ├─────────────────────────────────────────────┤
 │  • Le Contradicteur : Trouver les failles   │
 │  • Principes Premiers : Bonne question ?    │
@@ -533,7 +533,7 @@ Déclenchement [COUNCIL] ou proposition auto (score <4/5 + domaine critique)
 └──────────────────┬──────────────────────────┘
                    ↓
 ┌─────────────────────────────────────────────┐
-│  Revue par les pairs (anonymisée, 30-60s)  │
+│  Revue par les pairs (anonymisée, 30-60s)   │
 ├─────────────────────────────────────────────┤
 │  • Quelle réponse est la plus forte ?       │
 │  • Laquelle a le plus gros angle mort ?     │
