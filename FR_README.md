@@ -5,7 +5,7 @@
 [![Prompt Universel](https://img.shields.io/badge/Prompt-Universel-blue)](promptor-council-v3.1.md)
 [![Promptor v3.1](https://img.shields.io/badge/Promptor-v3.1_Council_Edition-orange)](promptor-council-v3.1.md)
 [![GitHub Actions](https://img.shields.io/badge/CI-Markdown_Lint-success)](.github/workflows/markdownlint.yml)
-[![Conseil Karpathy](https://img.shields.io/badge/M%C3%A9thodologie-Conseil_LLM_Karpathy-red)](https://x.com/karpathy/status/1878531712785961151)
+[![Conseil Karpathy](https://img.shields.io/badge/M%C3%A9thodologie-Conseil_LLM_Karpathy-blueviolet)](https://x.com/karpathy/status/1878531712785961151)
 
 > **Générateur de méta-prompts prêt pour la production** permettant de créer des prompts IA optimisés validés par 
 > 5 Cercles + 18 Hacks + délibération multi-perspective optionnelle via Council. Fonctionne avec tous les LLM 
