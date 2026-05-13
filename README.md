@@ -10,6 +10,8 @@
 > **Production-ready meta-prompt generator** for creating optimized AI prompts validated through 5 Circles + 18 Hacks
 > + optional multi-perspective Council deliberation. Works with any LLM (ChatGPT, Claude, Gemini, Qwen, DeepSeek, etc.).
 
+**🌍 Language / Langue :** [English](README.md) | [Français](FR_README.md)
+
 ---
 
 ## Table of Contents
