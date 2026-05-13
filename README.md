@@ -523,7 +523,7 @@ Standard Pipeline (C1→C5 → 18 Hacks → A-B-C-D)
 [COUNCIL] trigger or auto-proposal (score <4/5 + critical domain)
                   ↓
 ┌─────────────────────────────────────────────┐
-│  5 Advisors (parallel, 30-60s)             │
+│  5 Advisors (parallel, 30-60s)              │
 ├─────────────────────────────────────────────┤
 │  • The Contrarian: Find flaws               │
 │  • First Principles: Right question?        │
@@ -533,7 +533,7 @@ Standard Pipeline (C1→C5 → 18 Hacks → A-B-C-D)
 └──────────────────┬──────────────────────────┘
                    ↓
 ┌─────────────────────────────────────────────┐
-│  Peer Review (anonymized, 30-60s)          │
+│  Peer Review (anonymized, 30-60s)           │
 ├─────────────────────────────────────────────┤
 │  • Which response is strongest?             │
 │  • Which has the biggest blind spot?        │
