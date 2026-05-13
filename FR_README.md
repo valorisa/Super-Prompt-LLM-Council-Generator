@@ -8,8 +8,8 @@
 [![Conseil Karpathy](https://img.shields.io/badge/M%C3%A9thodologie-Conseil_LLM_Karpathy-blueviolet)](https://x.com/karpathy/status/1878531712785961151)
 
 > **Générateur de méta-prompts prêt pour la production** permettant de créer des prompts IA optimisés validés par 
-> 5 Cercles + 18 Hacks + délibération multi-perspective optionnelle via Council. Fonctionne avec tous les LLM 
-> (ChatGPT, Claude, Gemini, Qwen, DeepSeek, etc.).
+> 5 Cercles + 18 Hacks + format de livraison A-B-C-D + délibération multi-perspective optionnelle via Council. 
+> Fonctionne avec tous les LLM (ChatGPT, Claude, Gemini, Qwen, DeepSeek, etc.).
 
 ---
 
@@ -30,6 +30,7 @@
 - [Comment ça marche](#comment-ça-marche)
   - [La validation des 5 Cercles](#la-validation-des-5-cercles)
   - [Le framework des 18 Hacks](#le-framework-des-18-hacks)
+  - [Phase 3 — Livraison (A-B-C-D)](#phase-3--livraison-a-b-c-d)
   - [Le Conseil LLM](#le-conseil-llm)
 - [Structure du projet](#structure-du-projet)
 - [Contribuer](#contribuer)
@@ -46,7 +47,8 @@ DevOps, etc.) à travers un pipeline de validation rigoureux :
 
 1. **5 Cercles** de validation (STOP → RECHERCHE → GRILLE → TRIBUNAL → FIX)
 2. **18 Hacks** d'optimisation (efficacité des tokens, qualité, sécurité)
-3. **Conseil LLM** optionnel pour audit multi-perspective (5 conseillers + revue par les pairs + synthèse du président)
+3. **Format de livraison A-B-C-D** (Calibrage → Prompt Optimisé → Auto-Critique → Interrogatoire)
+4. **Conseil LLM** optionnel pour audit multi-perspective (5 conseillers + revue par les pairs + synthèse du président)
 
 Contrairement aux modèles de prompts génériques, ce système applique une **validation spécifique au domaine** et des 
 **vérifications de conformité** (variables proxy, workflows d'escalade humaine, exigences de testabilité) apprises 
@@ -100,6 +102,7 @@ Ce générateur de méta-prompts :
 | --- | --- |
 | **Validation 5 Cercles** | Pipeline structuré : STOP (valider la demande) → RECHERCHE (standards du domaine) → GRILLE (critères de succès) → TRIBUNAL (évaluation stricte) → FIX (corrections) |
 | **Framework 18 Hacks** | Stratégies d'optimisation couvrant tokens, qualité, vitesse, sécurité, collaboration |
+| **Format de livraison A-B-C-D** | Sortie prête pour production : A (Calibrage) → B (Prompt Optimisé) → C (Auto-Critique + proposition Council) → D (Interrogatoire avec questions META) |
 | **Détection automatique du domaine** | Identifie automatiquement le domaine (finance, sécurité, codage, etc.) et applique les standards pertinents |
 | **Vérifications de conformité** | Détecte les variables proxy (équité), valide les workflows d'escalade humaine, exige la testabilité |
 | **Mode Conseil LLM** | Délibération multi-agents optionnelle : 5 conseillers (Contradicteur, Principes Premiers, Expansionniste, Outsider, Exécuteur) + revue par les pairs + verdict du président |

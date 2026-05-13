@@ -8,7 +8,7 @@
 [![Karpathy Council](https://img.shields.io/badge/Methodology-Karpathy_LLM_Council-blueviolet)](https://x.com/karpathy/status/1878531712785961151)
 
 > **Production-ready meta-prompt generator** for creating optimized AI prompts validated through 5 Circles + 18 Hacks
-> + optional multi-perspective Council deliberation. Works with any LLM (ChatGPT, Claude, Gemini, Qwen, DeepSeek, etc.).
+> + A-B-C-D delivery format + optional multi-perspective Council deliberation. Works with any LLM (ChatGPT, Claude, Gemini, Qwen, DeepSeek, etc.).
 
 **🌍 Language / Langue :** [English](README.md) | [Français](FR_README.md)
 
@@ -31,6 +31,7 @@
 - [How It Works](#how-it-works)
   - [The 5 Circles Validation](#the-5-circles-validation)
   - [The 18 Hacks Framework](#the-18-hacks-framework)
+  - [Phase 3 — Delivery (A-B-C-D)](#phase-3--delivery-a-b-c-d)
   - [The LLM Council](#the-llm-council)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
@@ -47,7 +48,8 @@ a rigorous validation pipeline:
 
 1. **5 Circles** of validation (STOP → RECHERCHE → GRILLE → TRIBUNAL → FIX)
 2. **18 Hacks** optimization framework (token efficiency, quality, security)
-3. **LLM Council** optional multi-perspective audit (5 advisors + peer review + chairman synthesis)
+3. **A-B-C-D Delivery** format (Calibration → Optimized Prompt → Self-Critique → Interrogation)
+4. **LLM Council** optional multi-perspective audit (5 advisors + peer review + chairman synthesis)
 
 Unlike generic prompt templates, this system applies **domain-specific validation** and **compliance checks**
 (proxy variables, human escalation workflows, testability requirements) learned from real-world production failures.
@@ -100,6 +102,7 @@ This meta-prompt generator:
 | --- | --- |
 | **5 Circles Validation** | Structured pipeline: STOP (validate request) → RECHERCHE (domain standards) → GRILLE (success criteria) → TRIBUNAL (strict evaluation) → FIX (corrections) |
 | **18 Hacks Framework** | Optimization strategies covering tokens, quality, speed, security, collaboration |
+| **A-B-C-D Delivery Format** | Production-ready output: A (Calibration) → B (Optimized Prompt) → C (Self-Critique + Council proposal) → D (Interrogation with META questions) |
 | **Domain Auto-Detection** | Automatically identifies domain (finance, security, coding, etc.) and applies relevant standards |
 | **Compliance Checks** | Detects proxy variables (fairness), validates human escalation workflows, requires testability |
 | **LLM Council Mode** | Optional multi-agent deliberation: 5 advisors (Contrarian, First Principles, Expansionist, Outsider, Executor) + peer review + chairman verdict |
