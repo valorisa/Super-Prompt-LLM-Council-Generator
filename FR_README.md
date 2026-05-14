@@ -575,7 +575,7 @@ Le format de livraison final garantit que le prompt généré est prêt pour la 
 
 ### Le Conseil LLM
 
-Basé sur la [méthodologie Conseil LLM d'Andrej Karpathy](https://x.com/karpathy/status/1878531712785961151) :
+Basé sur la [méthodologie Conseil LLM d'Andrej Karpathy](https://x.com/karpathy?lang=fr) :
 
 ```text
 Pipeline Standard (C1→C5 → 18 Hacks → A-B-C-D)
