@@ -696,7 +696,7 @@ Logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
 ## Remerciements
 
-- **Andrej Karpathy** : [Méthodologie Conseil LLM](https://x.com/karpathy/status/1878531712785961151) (framework de 
+- **Andrej Karpathy** : [Méthodologie Conseil LLM](https://github.com/karpathy/llm-council) (framework de 
   délibération multi-perspective)
 - **Inspiration 18 Hacks** : Adapté des stratégies d'optimisation pour une utilisation efficace des tokens avec les LLM
 - **Validation 5 Cercles** : Framework structuré d'ingénierie de prompts garantissant la conformité au domaine

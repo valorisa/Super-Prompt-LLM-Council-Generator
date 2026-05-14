@@ -696,7 +696,7 @@ furnished to do so, subject to the following conditions:
 
 ## Acknowledgments
 
-- **Andrej Karpathy**: [LLM Council methodology](https://x.com/karpathy/status/1878531712785961151) (multi-perspective
+- **Andrej Karpathy**: [LLM Council methodology](https://github.com/karpathy/llm-council) (multi-perspective
   deliberation framework)
 - **18 Hacks inspiration**: Adapted from optimization strategies for token-efficient LLM usage
 - **5 Circles validation**: Structured prompt engineering framework ensuring domain compliance
